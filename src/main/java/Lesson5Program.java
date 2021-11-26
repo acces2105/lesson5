@@ -18,13 +18,13 @@ public class Lesson5Program {
 
     // метод вычисления Фибоначчи в цикле от числа переданного через консоль...
     public static int fibonachi(int index, int arg0, int arg1) {
-        if (index == 0) {
-            return arg0;
-        }
-        if (index == 1) {
-            return arg1;
-        } else {
-            for (long i = 0; i <= index; ++i) {
+        //if (index == 0) {
+          //  return arg0;
+        //}
+        //if (index == 1) {
+          //  return arg1;
+        //} else {
+            for (long i = 0; i <= index; i++) {
                 int next = arg0 + arg1;
                 arg0 = arg1;
                 arg1 = next;
@@ -32,7 +32,7 @@ public class Lesson5Program {
             return arg1;
         }
     }
-}
+//}
 
         //    //if (i*i == index)
         //  return i++;
